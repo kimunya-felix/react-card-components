@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.main2{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.nftCard{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+#equilbrium{
+    border-radius: 5px;
+    width: 100%;
+}
+.equilibrium{
+    font-weight: bold;
+}
+.logoz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ether{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+.time{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    font-size: 12px;
+}
+.avtar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#ethr{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+#clck{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+#avt{
+    height: 20px;
+    width: 20px;
+}
+#textl{
+    opacity: 0.6;
+    font-size: 15px;
+}
+#texteq{
+    opacity: 0.8;
+    font-size: 15px;
+}
+hr{
+    width: 80%;
+    opacity: 0.5;
+}
